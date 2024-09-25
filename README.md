@@ -2,10 +2,22 @@
 
 This repository contains a deep learning model implemented with TensorFlow to classify whether a patient has heart disease based on several health metrics. The model has been trained using real-world patient data and achieves high performance in terms of precision, recall, and F1 score.
 
-## Model Overview
+## Dataset Overview
 
-This project uses a neural network-based classification model to predict the presence of heart disease based on 11 input features. The features are normalized using the mean and scale values derived from the training data.
+Heart disease, also known as cardiovascular diseases (CVDs), is the leading cause of death globally, accounting for an estimated 17.9 million deaths each year (about 32% of all deaths worldwide). CVDs encompass a group of disorders affecting the heart and blood vessels, including coronary heart disease, cerebrovascular disease, rheumatic heart disease, and others. Heart attacks and strokes cause 4 out of 5 CVD deaths, with one-third of these deaths occurring prematurely in individuals under 70.
 
+This project uses a **comprehensive heart disease dataset** that combines five independently available datasets, resulting in one of the largest heart disease datasets available for research purposes. The datasets were merged based on 11 common features. The combined dataset includes:
+
+| **Database**         | **Instances** |
+|----------------------|---------------|
+| Cleveland            | 303           |
+| Hungarian            | 294           |
+| Switzerland          | 123           |
+| Long Beach VA        | 200           |
+| Stalog (Heart) Data  | 270           |
+| **Total**            | **1190**      |
+
+The dataset from kaggle provides a rich source for heart disease research and model training.
 ### Input Features:
 1. **Age**: Patient's age (in years).
 2. **Sex**: Gender of the patient (0 = female, 1 = male).
