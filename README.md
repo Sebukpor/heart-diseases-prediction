@@ -67,8 +67,8 @@ You can interact with the model using a web interface implemented in TensorFlow.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/sebukpor/heart-disease-classification.git
-   cd heart-disease-classification
+   git clone https://github.com/sebukpor/heart-disease-prediction.git
+   cd heart-disease-prediction
    ```
 
 2. **Install the required dependencies**:
