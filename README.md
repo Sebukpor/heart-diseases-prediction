@@ -42,7 +42,7 @@ The model was trained over 38 epochs with a batch size of 32, achieving the foll
 ### Confusion Matrix:
 ```
 [[559   2]
- [  7 621]]
+ [  7 622]]
 ```
 
 ## Model Inference
