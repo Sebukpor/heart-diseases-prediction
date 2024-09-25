@@ -35,14 +35,14 @@ This project uses a neural network-based classification model to predict the pre
 
 The model was trained over 38 epochs with a batch size of 32, achieving the following performance metrics on the test set:
 
-- **Precision**: 0.9984
-- **Recall**: 0.9873
+- **Precision**: 0.9967
+- **Recall**: 0.988
 - **F1 Score**: 0.9928
 
 ### Confusion Matrix:
 ```
-[[560   1]
- [  8 621]]
+[[560   2]
+ [  7 621]]
 ```
 
 ## Model Inference
