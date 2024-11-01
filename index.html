@@ -231,10 +231,11 @@
       // Normalize the input
       const normalizedInput = normalizeInput(input);
 
-      // Convert input to tensor and make prediction
-      const inputTensor = tf.tensor2d([normalizedInput], [1, 11]);
-      const prediction = model.predict(inputTensor);
-      const predictedClass = prediction.argMax(-1).dataSync()[0];
+   // Convert input to tensor and make prediction
+    const inputTensor = tf.tensor2d([normalizedInput], [1, 11]);
+    const prediction = model.predict(inputTensor);
+    const probability = prediction.dataSync()[0];
+    const predictedClass = probability >= 0.5 ? 1 : 0;
       
       // Display the prediction
       const resultDiv = document.getElementById('result');
