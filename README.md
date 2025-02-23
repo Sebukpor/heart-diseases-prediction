@@ -61,19 +61,6 @@ The model was trained over 38 epochs with a batch size of 32, achieving the foll
 
 You can interact with the model using a web interface implemented in TensorFlow.js. The model predicts whether a patient has heart disease based on input features.
 
-### Inference Example:
-
-```html
-<form>
-  <!-- Form to collect age, sex, and other health metrics -->
-</form>
-
-<script>
-  // TensorFlow.js model inference script
-  const input = [age, sex, chest_pain_type, resting_bp_s, cholesterol, fasting_blood_sugar, resting_ecg, max_heart_rate, exercise_angina, oldpeak, st_slope];
-  // Normalize and predict using the model
-</script>
-```
 
 ## Installation
 
@@ -83,20 +70,6 @@ You can interact with the model using a web interface implemented in TensorFlow.
    cd heart-disease-prediction
    ```
 
-2. **Install the required dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the model**:
-   - You can use the provided Jupyter notebook to train and evaluate the model.
-   - Alternatively, you can convert the model to TensorFlow.js for web-based inference.
-
-## Usage
-
-1. **Training**:
-   - Use the provided script or Jupyter notebook to train the model on your data.
-   - Ensure that you have the correct input features in the specified format.
 
 2. **Inference**:
    - You can use the TensorFlow.js model for browser-based inference, allowing patients or healthcare professionals to input data and receive predictions.
@@ -105,6 +78,7 @@ You can interact with the model using a web interface implemented in TensorFlow.
 ## Credits
 
 - [Divine Sebukpor](https://github.com/sebukpor) - Model development and deployment.
+- [You can test model here](https://sebukpor.github.io/heart-diseases-prediction/) .
 
 ## License
 
